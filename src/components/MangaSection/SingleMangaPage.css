@@ -1,0 +1,30 @@
+.mangaDetailContainer{
+    padding: 35px 50px;
+    margin-top: 30px;
+}   
+.mangaDetail img{
+    height: 400px;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.mangaDetailInfo{
+    margin-left: 100px;
+}
+.description{
+    margin-top: 30px;
+}
+.genre{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.mangaDetail h3{
+    font-size: 40px;
+}
+.mangaDetail p{
+    font-size: 24px;
+}
+.description{
+    border-top: 5px solid;
+}

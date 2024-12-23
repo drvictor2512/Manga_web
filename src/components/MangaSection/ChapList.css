@@ -1,0 +1,7 @@
+.chapInfo{
+    justify-content: space-around;
+    border-bottom: 1px solid #e0e0e0;
+}
+.chapInfo a{
+    text-decoration: none;
+}

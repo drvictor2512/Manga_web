@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+
+}
+.align_center{
+    display: flex;
+    align-items: center;
+}
+a{
+  font-size: inherit;
+  font-weight: 500;
+  color: inherit;
+  cursor: pointer;
+}
+.form_error{
+  font-size: 27px;
+  color: red;
+  text-align: center;
+}

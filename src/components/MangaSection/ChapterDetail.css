@@ -1,0 +1,83 @@
+.chapDetail{
+    width: 600px;
+    margin-top:70px;
+    position: relative;
+}
+.Mangimg{
+    width: 600px;
+    transform: translate(80%);
+}
+.chapdtitle{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+.chapdtitle h2 {
+    margin-left: 10px;
+}
+.chapdtitle a{
+    margin-left: 5px;
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.chapdbutton{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    transform: translate(80%);
+}
+.chapdbutton button{
+  background-color: #FFFFFF;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #222222;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 13px 23px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+}
+
+.chapdbutton button:focus-visible {
+    box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+    transition: box-shadow .2s;
+  }
+  
+  button:active {
+    background-color: #F7F7F7;
+    border-color: #000000;
+    transform: scale(.96);
+  }
+  
+  button:disabled {
+    border-color: #DDDDDD;
+    color: #DDDDDD;
+    cursor: not-allowed;
+    opacity: 1;
+  }
+.chapDetail select{
+  position: relative;
+    padding: 7px 40px 7px 12px;
+    border: 1px solid #E8EAED;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 1px 3px -2px #9098A9;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+    transition: all 150ms ease;  
+      
+}
